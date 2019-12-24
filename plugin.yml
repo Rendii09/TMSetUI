@@ -1,0 +1,15 @@
+name: TMSetUI
+version: 1.0.0
+main: Rendii\TMSetUI\Main
+api: [3.0.0, 4.0.0]
+author: Rendii09
+
+commands:
+  tmui:
+    description: "TMSetUI Command"
+    permission: mui.cmd
+    usage: /tmui
+permissions:
+  tmui.cmd:
+    default: op
+    description: "TMSetUI Command"
