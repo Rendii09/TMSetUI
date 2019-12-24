@@ -74,7 +74,7 @@ class Main extends PluginBase implements Listener{
                 }
             });
             $form->setTitle("§l§eTimeSet§bUI);
-            $form->setContent(§bPilih untuk mengubah Cuaca:);
+            $form->setContent("§bPilih untuk mengubah Cuaca:");
             $form->addButton("§aDay);
             $form->addButton("§aNight);
             $form->addButton(§cKembali);
