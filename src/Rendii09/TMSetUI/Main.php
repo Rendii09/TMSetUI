@@ -59,12 +59,12 @@ class Main extends PluginBase implements Listener{
             switch($result){
                 case 0:
                     $sender->getLevel()->setTime(0);
-                    $sender->sendMessage(§b[TMSet] §aBerhasil mengubah cuaca ke pagi!);
+                    $sender->sendMessage("§b[TMSet] §aBerhasil mengubah cuaca ke pagi!");
                     $sender->addTitle("§l§eDay!", "§fDiaktifkan");
                 break;
                 case 1:
                     $sender->getLevel()->setTime(15000);
-                    $sender->sendMessage(§b[TMSet] §aBerhasil mengubah cuaca ke malam!);
+                    $sender->sendMessage("§b[TMSet] §aBerhasil mengubah cuaca ke malam!");
                     $sender->addTitle("§l§eNight!", "§fDiaktifkan");
                 break;
                 case 2:
@@ -73,11 +73,11 @@ class Main extends PluginBase implements Listener{
 
                 }
             });
-            $form->setTitle("§l§eTimeSet§bUI);
+            $form->setTitle("§l§eTimeSet§bUI");
             $form->setContent("§bPilih untuk mengubah Cuaca:");
-            $form->addButton("§aDay);
-            $form->addButton("§aNight);
-            $form->addButton(§cKembali);
+            $form->addButton("§aDay");
+            $form->addButton("§aNight");
+            $form->addButton("§cKembali");
             $form->sendToPlayer($sender);
             return $form;
     }
