@@ -1,6 +1,6 @@
 name: TMSetUI
 version: 1.0.0
-main: Rendii\TMSetUI\Main
+main: Rendii09\TMSetUI\Main
 api: [3.0.0, 4.0.0]
 author: Rendii09
 
